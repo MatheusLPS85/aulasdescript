@@ -19,6 +19,7 @@ const words = [
     { word: "raios", clue: "Descargas elétricas na atmosfera" },
     { word: "montanha", clue: "Elevação natural da terra" },
     { word: "vela", clue: "Objeto para iluminação" },
+    { word: "Matheus", clue: "Nome de uma pessoa ele faz design" },
   ];
   
   export default function getWord() {
