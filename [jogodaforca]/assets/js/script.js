@@ -13,7 +13,7 @@ init();
 
 function init() {
   indexImg = 1;
-  img.src = `./[jogodaforca]/assets/img/img1.png`;
+  img.src = `./assets/img/img1.png`;
 
   generateGuessSection();
   generateButtons();
@@ -40,7 +40,7 @@ function generateGuessSection() {
 
 function wrongAnswer() {
   indexImg++;
-  img.src = `/[jogodaforca]/assets/img/img${indexImg}.png`;
+  img.src = `./assets/img/img${indexImg}.png`;
 
   if (indexImg === 7) {
     setTimeout(() => {
